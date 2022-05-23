@@ -455,5 +455,21 @@ header .navbar ul li a:hover{
     .contact .row form{
         margin:3rem 0;
     }
+}
 
- }
+.btn:last-child:hover .icon {
+background: cyan;
+box-shadow: inset 1px 0 20px 0;
+}
+.btn:first-child:hover {
+color: #3b5998;
+}
+.btn:nth-child(2):hover {
+color: #dd2a7b;
+}
+.btn:nth-child(3):hover {
+color: #00acee;
+}
+.btn:last-child:hover {
+color: #0e76a8;
+} 
